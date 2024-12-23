@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y git maven curl netcat
 
 WORKDIR /app
 
-RUN git clone
+RUN git clone https://github.com/poovarasan23/image-upload-server.git
 
 RUN mvn clean package -DskipTests
 
