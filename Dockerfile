@@ -6,8 +6,10 @@ WORKDIR /app
 
 RUN git clone https://github.com/poovarasan23/image-upload-server.git
 
+WORKDIR /app/image-upload-server
+
 RUN mvn clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java","-jar","image-upload-1.0.jar"]
+CMD ["java","-jar","target/image-upload-1.0.jar"]
