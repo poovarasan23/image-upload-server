@@ -1,0 +1,6 @@
+com/bt/image_upload/entity/ImageUpload.class
+com/bt/image_upload/ImageUploadApplication.class
+com/bt/image_upload/service/ImageUploadService.class
+com/bt/image_upload/repository/ImageUploadRepository.class
+com/bt/image_upload/controller/ImageUploadController.class
+com/bt/image_upload/controller/PingController.class
