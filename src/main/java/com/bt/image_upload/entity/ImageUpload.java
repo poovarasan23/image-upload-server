@@ -2,13 +2,13 @@ package com.bt.image_upload.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
+//import lombok.NoArgsConstructor;
+//import lombok.AllArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
+//@NoArgsConstructor
+//@AllArgsConstructor
 public class ImageUpload {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
